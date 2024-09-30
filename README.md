@@ -133,6 +133,22 @@ https://github.com/openai/CLIP
 
 ---
 
+### Project 7: SAM2
+
+**Objective** <br/>
+YOLO를 사용해 객체를 탐지한 후, SAM2를 사용해 탐지된 객체의 세그멘테이션 마스크를 생성하고 이후에 각 객체에 맞는 색상으로 마스크를 오버레이하여 출력 영상을 생성합니다. YOLO는 바운딩 박스를 생성하고, SAM은 이를 기반으로 세그멘테이션을 처리하여 연동합니다.
+
+**Technologies Used** <br/>
+- Models: SAM2, YOLO
+
+**Key Results** <br/>
+모델로 탐지된 새로운 영상
+
+**URL** <br/>
+https://github.com/facebookresearch/segment-anything-2
+
+---
+
 ## 📈 Skills
 
 - **Programming Languages**: Python
