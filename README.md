@@ -116,16 +116,16 @@ https://github.com/Minyst/ML_DL_Portfolio_KR/tree/main/CNN
 
 ### Project 6: CLIP
 
-**목표** <br/>
+**Objective** <br/>
 웹 이미지와 컴퓨터에 저장된 이미지를 대상으로 CLIP 모델(Zero-shot image classification model)을 사용하는 방법을 알아내는 것.
 
-**사용된 기술** <br/>
+**Technologies Used** <br/>
 
 Zero-shot image classification은 모델이 특정 클래스의 이미지를 훈련 중에 직접 학습하지 않았더라도 새로운 이미지를 정확하게 분류할 수 있는 기술입니다. 모델은 학습된 다른 클래스 간의 유사성 또는 관계와 사전에 학습된 지식을 활용하여 새로운 클래스를 추론합니다.
 
 CLIP(Contrastive Language-Image Pretraining)은 Zero-shot image classification의 대표적인 모델입니다. CLIP은 이미지와 텍스트를 동시에 학습하여 두 가지 간의 관계를 이해할 수 있게 합니다. CLIP은 대조적 학습을 사용하여 이미지와 해당 이미지의 텍스트 설명을 짝지어 학습합니다. 이를 통해 모델은 이전에 보지 못한 클래스도 적절한 텍스트 설명과 연결하여 효과적으로 분류할 수 있습니다.
 
-**주요 결과** <br/>
+**Key Results** <br/>
 CLIP에 의해 예측된 웹 이미지와 컴퓨터에 저장된 이미지의 결과.
 
 **URL** <br/>
