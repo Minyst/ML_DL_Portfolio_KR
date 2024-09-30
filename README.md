@@ -144,7 +144,7 @@ YOLO를 사용해 객체를 탐지한 후, SAM2를 사용해 탐지된 객체의
 모델로 탐지된 새로운 영상
 
 **URL** <br/>
-https://github.com/facebookresearch/segment-anything-2
+https://github.com/facebookresearch/segment-anything-2 <br/>
 https://docs.ultralytics.com/ko/models/yolov10
 
 ---
