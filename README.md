@@ -69,7 +69,7 @@ detectron2는 yolov10이랑 거의 똑같지만 차이점이 두가지 있습니
 detectron은 차이가 느껴지지 않았습니다.
 
 **URL** <br/>
-https://github.com/Minyst/ML_DL_Portfolio_KR/tree/main/Detectron
+https://github.com/facebookresearch/detectron2/blob/main/README.md
 
 ---
 
