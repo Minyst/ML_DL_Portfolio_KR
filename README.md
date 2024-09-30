@@ -48,7 +48,8 @@ Pretrained model과 Custom model을 비교했을 때, 상당한 차이가 있었
 클래스 예측 범위가 더 넓었지만, 정확도는 Pretrained model에 비해 훨씬 낮았습니다.
 
 **URL** <br/>
-https://github.com/Minyst/ML_DL_Portfolio_KR/tree/main/YOLO
+https://github.com/THU-MIG/yolov10 <br/>
+https://docs.ultralytics.com/ko/models/yolov10
 
 ---
 
