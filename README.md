@@ -111,6 +111,9 @@ Tensorflow와 Pytorch로 복잡한 CNN 구성해보기
 **Key Results** <br/>
 Tensorflow와 Pytorch로 할 수 있는 CNN의 모든 과정을 담았습니다.
 
+**URL** <br/>
+https://www.cs.toronto.edu/~kriz/cifar.html
+
 ---
 
 ### Project 6: CLIP
