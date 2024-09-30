@@ -111,9 +111,6 @@ Tensorflow와 Pytorch로 복잡한 CNN 구성해보기
 **Key Results** <br/>
 Tensorflow와 Pytorch로 할 수 있는 CNN의 모든 과정을 담았습니다.
 
-**URL** <br/>
-https://github.com/Minyst/ML_DL_Portfolio_KR/tree/main/CNN
-
 ---
 
 ### Project 6: CLIP
@@ -148,6 +145,7 @@ YOLO를 사용해 객체를 탐지한 후, SAM2를 사용해 탐지된 객체의
 
 **URL** <br/>
 https://github.com/facebookresearch/segment-anything-2
+https://docs.ultralytics.com/ko/models/yolov10
 
 ---
 
