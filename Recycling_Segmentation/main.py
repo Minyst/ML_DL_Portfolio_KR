@@ -96,11 +96,18 @@ def create_visualization(image, mask):
 def predict_image(image_bytes):
     image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
     inputs = processor(images=image, return_tensors="pt")
+
     with torch.no_grad():
         outputs = model(**inputs)
+
     preds = torch.argmax(outputs.logits, dim=1).squeeze().cpu().numpy()
 
-    return create_visualization(image, preds)
+    # (W, H) 순서 주의
+    original_size = image.size
+    preds_resized = Image.fromarray(preds.astype(np.uint8)).resize(original_size, resample=Image.NEAREST)
+    preds_resized = np.array(preds_resized)
+
+    return create_visualization(image, preds_resized)
 
 # ✅ 예측 API 엔드포인트
 @app.post("/predict")
@@ -127,7 +134,7 @@ async def root():
 @app.head("/", include_in_schema=False)
 async def root_head():
     return {}
-    
+
 # ✅ Render용 포트 설정
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
