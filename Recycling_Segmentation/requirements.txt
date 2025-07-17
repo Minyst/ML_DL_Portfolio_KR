@@ -5,3 +5,5 @@ torch
 transformers
 safetensors
 pillow
+opencv-python-headless
+scipy
